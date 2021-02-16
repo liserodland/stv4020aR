@@ -8,7 +8,7 @@ February 14, 2018
 R er et gratisprogram som er spesielt egnet for statistikk og
 dataanalyse. Rstudio er en IDE (integrated development environment), et
 gratisprogram som gjør det lettere å bruke R. Derfor skal vi lære R med
-Rstudio i seminarene i STV 4020A.
+Rstudio i seminarene.
 
 Første gang du åpner Rstudio er alt fremmed, du blir du møtt av en rekke
 vinduer, menyer og knapper. Dette dokumentet gir deg en kort forklaring
@@ -26,8 +26,6 @@ Før du går videre, ber jeg om at du installerer
 gratisversjonen for desktop). Følg lenkene, og kjør
 standardinstallasjonen for ditt operativsystem. Du kan også se på denne
 [installasjonsguiden](https://github.com/louisabo/STV4020A/blob/master/Nedlastningsguide.pdf).
-Ta kontakt med meg på <lise.rodland@stv.uio.no> **senest** torsdag før
-første seminar dersom installasjonen ikke virker.
 
 Dersom du ikke vil installere R og Rstudio på pcen din, kan du kjøre
 Rstudio gjennom
