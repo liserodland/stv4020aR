@@ -25,17 +25,16 @@ Før du går videre, ber jeg om at du installerer
 [Rstudio](https://www.rstudio.com/products/rstudio/download/) (velg
 gratisversjonen for desktop). Følg lenkene, og kjør
 standardinstallasjonen for ditt operativsystem. Du kan også se på denne
-[installasjonsguiden](https://github.com/louisabo/STV4020A/blob/master/Nedlastningsguide.pdf).
+[installasjonsguiden](https://github.com/liserodland/STV1020/blob/main/doc/Installasjonsguide.md).
 
 Dersom du ikke vil installere R og Rstudio på pcen din, kan du kjøre
 Rstudio gjennom
 [kiosk](https://kiosk.uio.no/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx/kontor).
-I år vil det ikke være mulig å bruke UiO sine PC-er på seminarene.
 
 ## Åpne Rstudio
 
-Nå er du klar til å åpne Rstudio (du trenger ikke åpne R\!). Når du
-åpner Rstudio, vil denne skjermen dukke opp:
+Nå er du klar til å åpne Rstudio (du trenger ikke åpne R!). Når du åpner
+Rstudio, vil denne skjermen dukke opp:
 
 ![](../bilder/Rstudio1.PNG)
 
@@ -74,7 +73,7 @@ R-scriptet ditt skal se slik ut:
 
 ![](../bilder/Rstudio4.PNG)
 
-Du har nå skrevet to linjer med R-kode\!
+Du har nå skrevet to linjer med R-kode!
 
 ## Console
 
@@ -90,7 +89,7 @@ scriptet:
 
 På linjen med `>` vises kode som R har kjørt. På linjen under kode som
 er kjørt, vises output fra koden. Koden `"Hello world!"`ble lest og
-evaluert som tekst - resultatet er tekst-outputen **“Hello world\!”**.
+evaluert som tekst - resultatet er tekst-outputen **“Hello world!”**.
 Koden `1+1` ble lest som et mattestykke, og Rstudio produserte outputen
 **2**, løsningen på mattestykket vi ba Rstudio om å kjøre/evaluere for
 oss. Rstudio kan tydeligvis både lese og regne.
@@ -141,8 +140,8 @@ av objekter med `<-` gir output i andre paneler, som **Environment**
 Vi har nå sett på 3 deler av arbeidsflyten i Rstudio:
 
 1.  Først skriver vi kode i et **script**.
-2.  Deretter kjører/evaluerer vi koden i **Console** med `ctrl/cmd +
-    enter`.
+2.  Deretter kjører/evaluerer vi koden i **Console** med
+    `ctrl/cmd + enter`.
 3.  Resultatet av at koden ble evaluert dukker som regel opp i
     **Console**. Når koden produserer objekter med informasjon som
     Rstudio skal huske på, dukker imidlertid objektet opp i
@@ -196,12 +195,12 @@ bestemt mappe, f.eks. STV4020A, utgjør *filstien* til mappen STV4020A.
 Ved å spesifisere filstien til en mappe, kan du kan bytte working
 directory med funksjonen `setwd()`. Dersom vi skriver navnet på en fil
 som ligger i en annen mappe enn **working directory**, vil ikke R klare
-å finne denne, med mindre vi spesifiserer filstien. Vi kan lese
-filstien til nåværende **working directory** på toppen av
-**Files**-panelet. Fra bildet over, ser vi at mitt **working directory**
-er satt til C:/Users/erlenlan/OneDrive/STV4020A/data (Bruk `/` for å
-skille mellom mapper når du skriver filstier). Du kan også finne
-nåværende **working directory** ved å kjøre koden `getwd()`. Den beste
-og letteste måten å unngå frustrasjon pga. **working directory** er å
-opprette et prosjekt gjennom menyen i R-studio. Les mer
+å finne denne, med mindre vi spesifiserer filstien. Vi kan lese filstien
+til nåværende **working directory** på toppen av **Files**-panelet. Fra
+bildet over, ser vi at mitt **working directory** er satt til
+C:/Users/erlenlan/OneDrive/STV4020A/data (Bruk `/` for å skille mellom
+mapper når du skriver filstier). Du kan også finne nåværende **working
+directory** ved å kjøre koden `getwd()`. Den beste og letteste måten å
+unngå frustrasjon pga. **working directory** er å opprette et prosjekt
+gjennom menyen i R-studio. Les mer
 [her](https://r4ds.had.co.nz/workflow-projects.html).

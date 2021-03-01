@@ -17,9 +17,9 @@ Første gang du åpner Rstudio er alt fremmed, du blir du møtt av en rekke vind
 
 ## Installere R og Rstudio
 
-Før du går videre, ber jeg om at du installerer [R](https://cloud.r-project.org/) og [Rstudio](https://www.rstudio.com/products/rstudio/download/) (velg gratisversjonen for desktop). Følg lenkene, og kjør standardinstallasjonen for ditt operativsystem. Du kan også se på denne [installasjonsguiden](https://github.com/louisabo/STV4020A/blob/master/Nedlastningsguide.pdf). 
+Før du går videre, ber jeg om at du installerer [R](https://cloud.r-project.org/) og [Rstudio](https://www.rstudio.com/products/rstudio/download/) (velg gratisversjonen for desktop). Følg lenkene, og kjør standardinstallasjonen for ditt operativsystem. Du kan også se på denne [installasjonsguiden](https://github.com/liserodland/STV1020/blob/main/doc/Installasjonsguide.md). 
 
-Dersom du ikke vil installere R og Rstudio på pcen din, kan du kjøre Rstudio gjennom [kiosk](https://kiosk.uio.no/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx/kontor). I år vil det ikke være mulig å bruke UiO sine PC-er på seminarene. 
+Dersom du ikke vil installere R og Rstudio på pcen din, kan du kjøre Rstudio gjennom [kiosk](https://kiosk.uio.no/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx/kontor). 
 
 ##  Åpne Rstudio
 
